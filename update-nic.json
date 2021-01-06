@@ -8,7 +8,7 @@
     "subnetID": {
       "type": "string"
     },
-    "DnsServers1": {
+    "DnsServers": {
       "type": "array"
     },
     "privateIp": {
@@ -41,7 +41,7 @@
           }
         ],
             "dnsSettings": {
-            "dnsServers": "[parameters('DnsServers1')]"
+            "dnsServers": "[parameters('DnsServers')]"
           }
       }
     }
